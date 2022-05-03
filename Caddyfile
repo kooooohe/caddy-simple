@@ -1,4 +1,9 @@
+{
+	debug
+	auto_https off
+}
 :80 {
 	root * /srv
 	file_server
 }
+
